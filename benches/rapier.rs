@@ -25,7 +25,7 @@ fn spawn_colliders(In(n): In<usize>, mut commands: Commands) {
                     0.0,
                     z as f32 - n as f32 / 2.0,
                 )),
-                Collider::cuboid(1.0, 1.0, 1.0),
+                Collider::cuboid(0.5, 0.5, 0.5),
             ));
         }
     }
