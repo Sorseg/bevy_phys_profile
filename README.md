@@ -20,8 +20,15 @@ cargo bench --bench colliders -- --profile-time 60
 
 Profile generation will then take (2 engines * 3 sets of colliders) = 6 minutes
 
+## Specs
+|            |                           |
+|------------|---------------------------|
+| CPU        | AMD Ryzen 9 3900X 12-Core |
+| RAM total  | 16 Gb                     |
+| RAM memcpy | 9968 MB/s                 |
+| RAM memset | 8592 MB/s                 |
+
 ## Results
-Running on linux on `AMD Ryzen 9 3900X 12-Core`
 
 | Engine | Collider num | Warm up | Mean iteration time |
 |--------|--------------|---------|---------------------|
